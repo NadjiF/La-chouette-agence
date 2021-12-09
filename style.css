@@ -1,3 +1,21 @@
+/******modifs*****/
+.slogan p {
+    font-size: 20px;
+}
+.citation p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.auteur p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+/******fin modifs*****/
 body {
     margin: 0;
     padding: 0;
@@ -677,7 +695,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -812,10 +830,7 @@ h4 {
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
+/*****suppression .bg-lines-h2-bg******/
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
