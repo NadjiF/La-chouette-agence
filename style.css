@@ -108,10 +108,7 @@ a:hover {
     right: 0;
 }
 /***suppression backgroun img texture-paper***/
-.texture-paper::before {
-    background: url(img/texture-paper.png);
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -827,10 +824,8 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-/*****suppression .bg-lines-h2-bg******/
+
+/*****suppression .bg-lines-h2-bg & bg-dots-bg******/
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
