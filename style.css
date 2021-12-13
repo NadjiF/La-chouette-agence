@@ -1,8 +1,8 @@
 /******modifs*****/
-.slogan p {
+.slogan h2 {
     font-size: 20px;
 }
-.citation p {
+.citation h2 {
     font-size: 20px;
     font-style: italic;
     font-weight: bold;
@@ -661,14 +661,17 @@ h4,
 h5,
 h6,
 p,
-label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
 }
-
+label {
+    font-weight: bold;
+    color: #575757!important;
+    font-family: "helvetica";
+}
 .container {
     max-width: 1000px;
 }
