@@ -492,6 +492,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding-right: 5px;
 }
 
 .icon-lg {
@@ -717,11 +718,15 @@ p {
     font-weight: 700;
 }
 
-.social .social_twitter .social_facebook .social_dribble .social_instagram {
-    max-width: 400px;
+.social  {
+    color: white !important;
+    max-width: 500px;
     margin: auto auto auto auto;
 }
-
+.social a {
+    padding-left: 10px;
+    color: white !important;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
